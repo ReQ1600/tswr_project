@@ -4,7 +4,7 @@
 Implementacja polityk sterujących oraz wytrenowanie robota w celu zmniejszenia błędu pozycji w dłuższym horyzoncie czasowym.
 
 ## Opis
-- Narzędzia: Mujoco, ROS2, [stable baseline 3](https://stable-baselines3.readthedocs.io/en/master/)
+- Narzędzia: Mujoco, ROS2, [sb3](https://stable-baselines3.readthedocs.io/en/master/)
 - trenowanowanie danymi z symulatora. W późniejszym etapie dotrenowanie danymi rzeczywistymi.
 
 ## Bibliografia
