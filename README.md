@@ -1,12 +1,16 @@
 # Zmniejszanie błędu pozycji przy pomocy RL na robocie honeybadger
 
 ## Opis
-Celem projektu jest nauczenie sieci neuronowej w celu wyznaczania macierzy kowariancji filtru kalmana w celu zmniejszenia błędu pozycji w dłuższym horyzoncie czasowym.
-- Narzędzia: Mujoco, ROS2, [SB3](https://stable-baselines3.readthedocs.io/en/master/)
+Projekt ma na celu wytrenowanie modelu RL do estymacji macierzy kowariancji filtru Kalmana, aby poprawić dokładność estymacji pozycji robota kroczącego hb40 w dłuższym horyzoncie czasowym.
+
+## Narzędzia
+- Mujoco
+- ROS2
+- [SB3](https://stable-baselines3.readthedocs.io/en/master/)
 
 ## Cele
  1. Zebranie danych do nauczania modelu.
- 2. Zmniejszenie błędu pozycji                                          
+ 2. Zmniejszenie błędu estymacji pozycji względem bazowego filtru Kalmana stosowanego na robocie.
 
 ## Bibliografia
  - [Learning robust perceptive locomotion for quadrupedal robots in the wild](https://arxiv.org/pdf/2201.08117)
